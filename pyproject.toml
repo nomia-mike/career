@@ -1,0 +1,16 @@
+[project]
+name = "career"
+version = "0.1.0"
+description = "A prototype of a career helper AI."
+authors = [
+  { name = "Mike Charles", email = "serverlessmike@gmail.com" },
+  { name = "Ed Donner", email = "ed@eddonner.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+  "requests",
+  "gradio",
+  "openai",
+  "dotenv",
+  "pypdf"
+]
